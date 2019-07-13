@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2eee0;
+}
+.App {
+  flex: 1;
+  height: auto;
+  padding: 20px;
+}

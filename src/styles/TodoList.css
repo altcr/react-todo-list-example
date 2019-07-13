@@ -1,0 +1,92 @@
+.containerForm {
+  width: 39%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+input {
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  text-indent: 10px;
+  border: none;
+  outline: none;
+  background-color: #eaf5ff;
+}
+.addBtn {
+  background-color: #50e3a4;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 28px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  border: solid 2px #f0efe9;
+  outline: none;
+}
+.addBtn:hover,
+.addBtn.selected {
+  background-color: #24dc8d;
+}
+
+/*LIST STYLES*/
+.containerList {
+  width: 40%;
+  height: auto;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.listItem {
+  width: 93%;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf5ff;
+}
+.listNumber {
+  width: 10%;
+  float: left;
+  font-size: 1.1em;
+}
+.listDescription {
+  width: 75%;
+  float: left;
+  font-size: 1.3em;
+}
+.listButtons {
+  width: 15%;
+  float: left;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.itemDelete {
+  cursor: pointer;
+}
+.todoForm {
+  width: 100%;
+}
+.listMessage {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
